@@ -26,6 +26,10 @@ body {
 
 }
 
+a{
+    text-decoration: none;
+}
+
 .caixa-header {
 display: flex;
 justify-content: center;
@@ -65,7 +69,6 @@ h2 {
 
 .foto_de_perfil{
     border-radius: 100px;
-    float:right;
     margin: 2px 4px 0 0;
     padding: 4px;
     background-color:#5E4064;
@@ -203,8 +206,10 @@ h2 {
   
 footer{
     text-align: center;
-    color: #9d72a1;
-    padding: 30px;
+    color: #FDE8E9;
+    padding: 10px;
+    background-color: rgb(189, 161, 185);
+    margin-top: 30px;
 }
 
 @media only screen and (max-device-width: 1024px) {
